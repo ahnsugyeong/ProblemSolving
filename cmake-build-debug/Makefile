@@ -143,32 +143,32 @@ Problem_Solving/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/build
 .PHONY : Problem_Solving/fast
 
-codeforces/2022_01_10/B.o: codeforces/2022_01_10/B.cpp.o
+baekjoon/2022_01_13/2164.o: baekjoon/2022_01_13/2164.cpp.o
 
-.PHONY : codeforces/2022_01_10/B.o
+.PHONY : baekjoon/2022_01_13/2164.o
 
 # target to build an object file
-codeforces/2022_01_10/B.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/codeforces/2022_01_10/B.cpp.o
-.PHONY : codeforces/2022_01_10/B.cpp.o
+baekjoon/2022_01_13/2164.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_13/2164.cpp.o
+.PHONY : baekjoon/2022_01_13/2164.cpp.o
 
-codeforces/2022_01_10/B.i: codeforces/2022_01_10/B.cpp.i
+baekjoon/2022_01_13/2164.i: baekjoon/2022_01_13/2164.cpp.i
 
-.PHONY : codeforces/2022_01_10/B.i
+.PHONY : baekjoon/2022_01_13/2164.i
 
 # target to preprocess a source file
-codeforces/2022_01_10/B.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/codeforces/2022_01_10/B.cpp.i
-.PHONY : codeforces/2022_01_10/B.cpp.i
+baekjoon/2022_01_13/2164.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_13/2164.cpp.i
+.PHONY : baekjoon/2022_01_13/2164.cpp.i
 
-codeforces/2022_01_10/B.s: codeforces/2022_01_10/B.cpp.s
+baekjoon/2022_01_13/2164.s: baekjoon/2022_01_13/2164.cpp.s
 
-.PHONY : codeforces/2022_01_10/B.s
+.PHONY : baekjoon/2022_01_13/2164.s
 
 # target to generate assembly for a file
-codeforces/2022_01_10/B.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/codeforces/2022_01_10/B.cpp.s
-.PHONY : codeforces/2022_01_10/B.cpp.s
+baekjoon/2022_01_13/2164.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_13/2164.cpp.s
+.PHONY : baekjoon/2022_01_13/2164.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Problem_Solving"
-	@echo "... codeforces/2022_01_10/B.o"
-	@echo "... codeforces/2022_01_10/B.i"
-	@echo "... codeforces/2022_01_10/B.s"
+	@echo "... baekjoon/2022_01_13/2164.o"
+	@echo "... baekjoon/2022_01_13/2164.i"
+	@echo "... baekjoon/2022_01_13/2164.s"
 .PHONY : help
 
 
