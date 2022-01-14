@@ -1,12 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-void goLeft(deque<int> D){
-
-}
-
-void goRight(deque<int> D){
-
-}
 
 int findIndex(deque<int> D, int e){
     for(int i=0;i<D.size();i++){
