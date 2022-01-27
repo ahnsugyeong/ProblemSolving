@@ -49,6 +49,7 @@ int main(){
                 else if(arrow == 'D') arrow = 'R';
                 else if(arrow == 'L') arrow = 'D';
             }
+
             if(x > max_x) max_x = x;
             if(x < min_x) min_x = x;
 
