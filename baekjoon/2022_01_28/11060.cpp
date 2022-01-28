@@ -1,37 +1,45 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int maze[1000];
-vector<int> result;
 int N;
 
 int dp[1000];
-void search(int index, int len){
 
-    if(index >= N) return;
+void solve(int i) {
+    if (maze[i] == 0) return;
 
-    if(dp[index] == true){
-        return dp[index];
+    for (int j = 1; j <= maze[i]; j++) {
+        if (i + j > N) break;
+        if (maze[i + j] == 0) continue;
+
+        if (dp[i + j] == 0) {
+            dp[i + j] = dp[i] + 1;
+            solve(i + j);
+        } else {
+            if (dp[i + j] > dp[i] + 1) {
+                dp[i + j] = dp[i] + 1;
+                solve(i + j);
+            }
+        }
     }
-    if(maze[index] == 0) return;
-
-    for(int i=1;i<=maze[index];i++){
-        search(index+i, len+1);
-    }
-
 }
 
-int main(){
+
+int main() {
 
     cin >> N;
-    for(int i=0;i<N;i++){
+    for (int i = 0; i < N; i++) {
         cin >> maze[i];
     }
 
-    search(0, 0);
+    solve(0);
 
-    sort(result.begin(), result.end());
-    cout << result[0];
+
+    if (N == 1) cout << 0;
+    else if (dp[N - 1] == 0) cout << -1;
+    else cout << dp[N - 1];
 
     return 0;
 }
