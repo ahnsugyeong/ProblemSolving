@@ -2,21 +2,20 @@
 
 using namespace std;
 
+//dynamic programming
 long long dp[81];
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
 
+int main() {
     int N;
-    cin >> N;
+    scanf("%d", &N);
 
     dp[1] = 4;
     dp[2] = 6;
-    for(int i=3;i<=N;i++){
-        dp[i] = dp[i-1] + dp[i-2];
+    for (int i = 3; i <= N; i++) {
+        dp[i] = dp[i - 1] + dp[i - 2];
     }
 
-    cout << dp[N] << "\n";
+    printf("%d\n", dp[N]);
 
 
     return 0;

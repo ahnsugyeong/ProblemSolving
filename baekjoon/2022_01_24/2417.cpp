@@ -2,17 +2,16 @@
 
 using namespace std;
 
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
+int main() {
     long long n;
-    cin >> n;
+    scanf("%lld", &n);
 
-    long long sq = sqrt(n);
-    if (sq*sq < n) sq++;
+    long long q = sqrt(n);
+    //만약 n이 제곱수였다면 q*q == n 일 것이다.
+    // q^2>=n인 q를 구해야 하므로, q*q<n이라면 q를 1 더해준다.
+    if (q * q < n) q++;
 
-    cout << sq;
+    printf("%lld", q);
 
     return 0;
 }

@@ -2,20 +2,18 @@
 
 using namespace std;
 
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
 
+//2가지 유형의 당근밭. 조건문으로 구분
+int main() {
     int N, R, C;
-    cin >> N >> R >> C;
+    scanf("%d %d %d", &N, &R, &C);
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             if (i % 2 == j % 2) {
                 if ((R + C) % 2 == 0) printf("v");
                 else printf(".");
-            }
-            else {
+            } else {
                 if ((R + C) % 2 == 0) printf(".");
                 else printf("v");
             }
