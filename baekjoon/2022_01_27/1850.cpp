@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//유클리드 호제법
 long long GCD(long long a, long long b) {
     if (a % b == 0) return b;
     return GCD(b, a % b);
@@ -9,16 +10,14 @@ long long GCD(long long a, long long b) {
 
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
 
     long long A, B;
-    cin >> A >> B;
+    scanf("%lld %lld", &A, &B);
 
     long long cnt = GCD(A, B);
 
     for (long long i = 0; i < cnt; i++) {
-        cout << 1;
+        printf("1");
     }
 
     return 0;
