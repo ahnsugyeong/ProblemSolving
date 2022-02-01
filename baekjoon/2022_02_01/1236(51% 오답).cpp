@@ -19,11 +19,32 @@ bool checkColumn(int j){
     return false;
 }
 
-int solve(){
-    int cnt_row = 0, cnt_column=0;
-    for(int i=0;i<N;i++) if(checkRow(i) == false) cnt_row++;
-    for(int j=0;j<M;j++) if(checkColumn(j) == false) cnt_column++;
-    return max(cnt_row, cnt_column);
+int cnt;
+
+void solve(){
+    for(int i=0;i<N;i++){
+        if(checkRow(i)) continue;
+        int j;
+        for(j=0;j<M;j++){
+            if(checkColumn(j) == false){
+                break;
+            }
+        }
+        cnt++;
+        flag[i][j] = true;
+    }
+
+    for(int j=0;j<M;j++){
+        if(checkColumn(j)) continue;
+        int i;
+        for(i=0;i<N;i++){
+            if(checkRow(i) == false){
+                break;
+            }
+        }
+        cnt++;
+        flag[i][j] = true;
+    }
 }
 
 int main(){
@@ -50,6 +71,8 @@ int main(){
         }
     }
 
-    cout << solve() << '\n';
+    cnt = 0;
+    solve();
+    cout << cnt;
 
 }

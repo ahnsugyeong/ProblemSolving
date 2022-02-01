@@ -77,27 +77,27 @@ include CMakeFiles/Problem_Solving.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Problem_Solving.dir/flags.make
 
-CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.o: CMakeFiles/Problem_Solving.dir/flags.make
-CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.o: ../baekjoon/2022_01_30/1037.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahnsugyeong/Desktop/2022/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.o -c /Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_01_30/1037.cpp
+CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.o: CMakeFiles/Problem_Solving.dir/flags.make
+CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.o: ../baekjoon/2022_02_01/1236.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahnsugyeong/Desktop/2022/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.o -c /Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_02_01/1236.cpp
 
-CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_01_30/1037.cpp > CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.i
+CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_02_01/1236.cpp > CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.i
 
-CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_01_30/1037.cpp -o CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.s
+CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_02_01/1236.cpp -o CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.s
 
 # Object files for target Problem_Solving
 Problem_Solving_OBJECTS = \
-"CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.o"
+"CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.o"
 
 # External object files for target Problem_Solving
 Problem_Solving_EXTERNAL_OBJECTS =
 
-Problem_Solving: CMakeFiles/Problem_Solving.dir/baekjoon/2022_01_30/1037.cpp.o
+Problem_Solving: CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_01/1236.cpp.o
 Problem_Solving: CMakeFiles/Problem_Solving.dir/build.make
 Problem_Solving: CMakeFiles/Problem_Solving.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ahnsugyeong/Desktop/2022/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Problem_Solving"
