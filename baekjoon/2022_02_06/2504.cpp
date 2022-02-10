@@ -13,30 +13,37 @@ int main() {
         if (str[i] == '(') {
             temp *= 2;
             S.push(str[i]);
-        } else if (str[i] == '[') {
+        }
+        else if (str[i] == '[') {
             temp *= 3;
             S.push(str[i]);
-        } else if (str[i] == ')') {
+        }
+        else if (str[i] == ')') {
             if (S.empty() || S.top() != '(') {
                 result = 0;
                 break;
-            } else if (str[i - 1] == '(') {
+            }
+            else if (str[i - 1] == '(') {
                 result += temp;
-                temp /= 2;
-                S.pop();
-            } else {
                 temp /= 2;
                 S.pop();
             }
-        } else if (str[i] == ']') {
+            else {
+                temp /= 2;
+                S.pop();
+            }
+        }
+        else if (str[i] == ']') {
             if (S.empty() || S.top() != '[') {
                 result = 0;
                 break;
-            } else if (str[i - 1] == '[') {
+            }
+            else if (str[i - 1] == '[') {
                 result += temp;
                 temp /= 3;
                 S.pop();
-            } else {
+            }
+            else {
                 temp /= 3;
                 S.pop();
             }

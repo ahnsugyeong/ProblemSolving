@@ -1,14 +1,15 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_02_10/2078.cpp" "/Users/ahnsugyeong/Desktop/2022/Problem_Solving/cmake-build-debug/CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_10/2078.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ahnsugyeong/Desktop/2022/Problem_Solving/baekjoon/2022_02_05/2504.cpp" "CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_05/2504.cpp.o" "gcc" "CMakeFiles/Problem_Solving.dir/baekjoon/2022_02_05/2504.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

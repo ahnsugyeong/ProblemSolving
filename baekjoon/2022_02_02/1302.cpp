@@ -18,9 +18,9 @@ int main() {
     string max_book = books[0];
 
     int cnt = 1;
-    for (int i = 0; i < N - 1; i++) {
+    for (int i = 0; i < N; i++) {
         //printf("cnt=%d\n", cnt);
-        if (books[i] != books[i + 1] || i == N - 2) {
+        if (books[i] != books[i + 1] || i == N - 1) {
             if (max < cnt) {
                 max = cnt;
                 max_book = books[i];
