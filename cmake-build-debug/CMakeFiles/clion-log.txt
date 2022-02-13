@@ -1,12 +1,12 @@
-"/Users/ahnsugyeong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ahnsugyeong/Desktop/2022/Problem_Solving
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ahnsugyeong/Desktop/2022/Problem_Solving
 -- Configuring done
 CMake Error at CMakeLists.txt:6 (add_executable):
   Cannot find source file:
 
-    baekjoon/2022_02_10/1448.cpp
+    baekjoon/2022_02_11/2210.cpp
 
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
-  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
 
 
 CMake Error at CMakeLists.txt:6 (add_executable):
