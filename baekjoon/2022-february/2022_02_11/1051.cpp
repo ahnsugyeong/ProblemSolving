@@ -5,16 +5,18 @@ int N, M;
 string x[50];
 
 int searchSquare(int _i, int _j) {
-    char pivot = x[_i][_j];
+    char pivot = x[_i][_j]; //왼쪽 위 점
     int max = 0;
     for (int i = _i + 1; i < N; i++) {
-        if (x[i][_j] != pivot) continue;
-        int gap = i - _i;
-        if (_j + gap > M) continue;
-        if (x[i][_j + gap] != pivot) continue;
-        if (x[_i][_j + gap] != pivot) continue;
+        //pivot 값이 나올때까지 아래로 이동
+        if (x[i][_j] != pivot) continue;    //왼쪽 아래 점
+        int gap = i - _i;  //정사각형의 한 변읙 길이(왼쪽 변)
 
-        if (max < gap) max = gap;
+        if (_j + gap > M) continue; //가로의 길이가 M을 넘어가면 pass
+        if (x[i][_j + gap] != pivot) continue;  //오른쪽 아래 점
+        if (x[_i][_j + gap] != pivot) continue; //오른쪽 위 점
+
+        if (max < gap) max = gap;   //변의 길이가 가장 긴 정사각형
     }
     max++;
     return max * max;
