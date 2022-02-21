@@ -16,11 +16,10 @@ int main() {
         }
         long long ans = 0;
         int max = 0;
-        for (int i = N-1; i >= 0; i--) {
-            if(stock[i] > max) {
+        for (int i = N - 1; i >= 0; i--) {
+            if (stock[i] > max) {
                 max = stock[i];
-            }
-            else{
+            } else {
                 ans += (max - stock[i]);
             }
         }

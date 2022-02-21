@@ -10,7 +10,7 @@ int main() {
     cin >> L >> N;
     bool *cake = new bool[L];
 
-    int max = 0, max_index = 0;
+    int max = 0, max_index = 0;g
     int ans = 0, ans_index = 0;
 
     for (int i = 0; i < N; i++) {
