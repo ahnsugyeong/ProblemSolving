@@ -16,7 +16,7 @@ string addNum(string a, string b) {
             carry = 1;
             num -= 10;
         } else carry = 0;
-        ans[a.size()-1-i] += num;
+        ans[a.size() - 1 - i] += num;
         //cout << "ans[] = "<< ans[a.size()-1-i] <<"\n";
 
 

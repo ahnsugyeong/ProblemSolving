@@ -5,9 +5,9 @@ using namespace std;
 
 int N;
 int tree[100001];
-vector<pair<int, int>> V;   //first :노드 번호, second: 부모 번호.
+vector <pair<int, int>> V;   //first :노드 번호, second: 부모 번호.
 bool visited[100001];
-queue<pair<int, int>> Q;
+queue <pair<int, int>> Q;
 
 void makeTree() {
     Q.push(make_pair(1, 1));

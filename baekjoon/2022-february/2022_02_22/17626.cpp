@@ -3,25 +3,25 @@
 using namespace std;
 
 int dp[50001];
-int main(){
+
+int main() {
     int n;
     cin >> n;
     dp[1] = 1;
-    for(int i=2;i<=n;i++){
+    for (int i = 2; i <= n; i++) {
         int min = INT_MAX;
-        if((int)sqrt(i)*(int)sqrt(i) == i) {
+        if ((int) sqrt(i) * (int) sqrt(i) == i) {
             //printf("제곱!!\n");
             min = 1;
-        }
-        else {
-            for(int j=1;j*j<i;j++){
-                int tmp = dp[j*j]+dp[i-j*j];
-                if(tmp < min) min = tmp;
+        } else {
+            for (int j = 1; j * j < i; j++) {
+                int tmp = dp[j * j] + dp[i - j * j];
+                if (tmp < min) min = tmp;
             }
-         //   printf("min = %d\n",min);
+            //   printf("min = %d\n",min);
         }
         dp[i] = min;
-       // printf("dp[%d]=%d\n", i, dp[i]);
+        // printf("dp[%d]=%d\n", i, dp[i]);
     }
     cout << dp[n];
 
