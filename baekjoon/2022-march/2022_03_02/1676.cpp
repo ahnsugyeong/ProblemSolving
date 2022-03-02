@@ -6,7 +6,7 @@ long long zero(int n, int what){
     int result = 0;
     for(long long i = what ; i <= n ; i *= what){
         result += n / i;
-        printf("what = %d, i=%d, result = %d\n", what, i, result);
+
     }
     return result;
 }
