@@ -143,32 +143,32 @@ Problem_Solving/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/build
 .PHONY : Problem_Solving/fast
 
-baekjoon/2022-march/2022_03_02/1676.o: baekjoon/2022-march/2022_03_02/1676.cpp.o
+baekjoon/2022-march/2022_03_03/1260.o: baekjoon/2022-march/2022_03_03/1260.cpp.o
 
-.PHONY : baekjoon/2022-march/2022_03_02/1676.o
+.PHONY : baekjoon/2022-march/2022_03_03/1260.o
 
 # target to build an object file
-baekjoon/2022-march/2022_03_02/1676.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-march/2022_03_02/1676.cpp.o
-.PHONY : baekjoon/2022-march/2022_03_02/1676.cpp.o
+baekjoon/2022-march/2022_03_03/1260.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-march/2022_03_03/1260.cpp.o
+.PHONY : baekjoon/2022-march/2022_03_03/1260.cpp.o
 
-baekjoon/2022-march/2022_03_02/1676.i: baekjoon/2022-march/2022_03_02/1676.cpp.i
+baekjoon/2022-march/2022_03_03/1260.i: baekjoon/2022-march/2022_03_03/1260.cpp.i
 
-.PHONY : baekjoon/2022-march/2022_03_02/1676.i
+.PHONY : baekjoon/2022-march/2022_03_03/1260.i
 
 # target to preprocess a source file
-baekjoon/2022-march/2022_03_02/1676.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-march/2022_03_02/1676.cpp.i
-.PHONY : baekjoon/2022-march/2022_03_02/1676.cpp.i
+baekjoon/2022-march/2022_03_03/1260.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-march/2022_03_03/1260.cpp.i
+.PHONY : baekjoon/2022-march/2022_03_03/1260.cpp.i
 
-baekjoon/2022-march/2022_03_02/1676.s: baekjoon/2022-march/2022_03_02/1676.cpp.s
+baekjoon/2022-march/2022_03_03/1260.s: baekjoon/2022-march/2022_03_03/1260.cpp.s
 
-.PHONY : baekjoon/2022-march/2022_03_02/1676.s
+.PHONY : baekjoon/2022-march/2022_03_03/1260.s
 
 # target to generate assembly for a file
-baekjoon/2022-march/2022_03_02/1676.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-march/2022_03_02/1676.cpp.s
-.PHONY : baekjoon/2022-march/2022_03_02/1676.cpp.s
+baekjoon/2022-march/2022_03_03/1260.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-march/2022_03_03/1260.cpp.s
+.PHONY : baekjoon/2022-march/2022_03_03/1260.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Problem_Solving"
-	@echo "... baekjoon/2022-march/2022_03_02/1676.o"
-	@echo "... baekjoon/2022-march/2022_03_02/1676.i"
-	@echo "... baekjoon/2022-march/2022_03_02/1676.s"
+	@echo "... baekjoon/2022-march/2022_03_03/1260.o"
+	@echo "... baekjoon/2022-march/2022_03_03/1260.i"
+	@echo "... baekjoon/2022-march/2022_03_03/1260.s"
 .PHONY : help
 
 
