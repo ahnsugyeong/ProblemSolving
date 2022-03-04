@@ -2,8 +2,8 @@
 
 using namespace std;
 int N, M, V;
-bool graph1[1000][1000];
-bool vertices1[1000];
+bool graph1[1001][1001];
+bool vertices1[1001];
 void DFS(int index){
     if(!vertices1[index]) {
         printf("%d ", index);
@@ -14,29 +14,34 @@ void DFS(int index){
         if(graph1[index][i]) {
             graph1[index][i] = false;
             graph1[i][index] = false;
-            DFS(i);
+            if(!vertices1[i]){  // 이 문장 추가했더니 11% -> 100% 됨
+                DFS(i);
+            }
         }
     }
 }
 
-bool graph2[1000][1000];
-bool vertices2[1000];
+bool graph2[1001][1001];
+bool vertices2[1001];
 void BFS(){
     queue<int> Q;
     Q.push(V);
     while(!Q.empty()){
 
         int index = Q.front();
-       // printf("%d ", index);
+        printf("%d ", index);
         vertices2[index] = true;
         Q.pop();
 
         for(int i=1;i<=N;i++){
             if(graph2[index][i]){
-                Q.push(i);
-                printf("%d pushed!!\n", i);
+                if(!vertices2[i]){
+                    Q.push(i);
+                    vertices2[i] = true;
+                }
                 graph2[index][i] = false;
                 graph2[i][index] = false;
+
             }
         }
     }
