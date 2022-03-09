@@ -55,10 +55,10 @@ int main(){
     sort(english.begin(), english.end(), compare);
     ans.push_back(english[0].second);
 
-    for(int i=0;i<N;i++){
+    for(int i=0;i<N-1;i++){
         if(math[i].second == english[0].second) math.erase(math.begin()+i);
     }
-    for(int i=0;i<N;i++){
+    for(int i=0;i<N-1;i++){
         if(science[i].second == english[0].second) science.erase(science.begin()+i);
     }
 
@@ -66,7 +66,7 @@ int main(){
     sort(math.begin(), math.end(), compare);
     ans.push_back(math[0].second);
 
-    for(int i=0;i<N;i++){
+    for(int i=0;i<N-2;i++){
         if(science[i].second == math[0].second) science.erase(science.begin()+i);
     }
 
