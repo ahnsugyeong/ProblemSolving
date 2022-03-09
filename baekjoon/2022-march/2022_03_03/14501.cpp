@@ -14,8 +14,7 @@ void DFS(int index, int ans, int prev) {
     if (index > N + 1) {
         if (maxAns < ans - P[prev]) maxAns = ans - P[prev];
         return;
-    }
-    else if (index == N + 1) {
+    } else if (index == N + 1) {
         if (maxAns < ans) maxAns = ans;
         return;
     }
