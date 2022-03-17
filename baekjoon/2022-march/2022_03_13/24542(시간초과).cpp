@@ -37,7 +37,8 @@ int solve() {
                 }
             }
         }
-        ans *= size % 1000000007;
+        if(size >= 1000000007) size %= 1000000007;
+        ans *= size;
 
     }
     return ans;
