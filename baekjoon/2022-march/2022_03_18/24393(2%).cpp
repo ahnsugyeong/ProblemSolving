@@ -8,7 +8,7 @@ int main() {
     int joker = 1;
 
 
-    for (int i = 0; i < N; i++) {
+    for (int index = 0; index < N; index++) {
         char where = 'r';   //처음에 오른쪽부터 합치기 시작
         char joker_where = 'l';
 
