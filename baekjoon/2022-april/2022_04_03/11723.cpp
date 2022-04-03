@@ -25,13 +25,13 @@ int main(){
         else if(order == "check"){
             int tmp;
             cin >> tmp;
-            if(S.find() == S.end()) cout << 0 << "\n";
+            if(S.find(tmp) == S.end()) cout << 0 << "\n";
             else cout << 1 << "\n";
         }
         else if(order == "toggle"){
             int tmp;
             cin >> tmp;
-            if(S.find() == S.end()) {
+            if(S.find(tmp) == S.end()) {
                 S.insert(tmp);
             }
             else {
@@ -42,7 +42,7 @@ int main(){
             S.clear();
             for(int i=1;i<=20;i++) S.insert(i);
         }
-        else if(order == 'empty') S.clear();
+        else if(order == "empty") S.clear();
 
 
 
