@@ -2,8 +2,8 @@
 
 using namespace std;
 
-vector<pair<int, int>> city;
-queue<pair<int, int>> dist;
+vector <pair<int, int>> city;
+queue <pair<int, int>> dist;
 vector<int> ans;
 
 
