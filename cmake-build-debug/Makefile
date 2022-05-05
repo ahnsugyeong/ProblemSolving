@@ -143,32 +143,32 @@ Problem_Solving/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/build
 .PHONY : Problem_Solving/fast
 
-baekjoon/2022-may/2022_05_04/16967.o: baekjoon/2022-may/2022_05_04/16967.cpp.o
+codeforces/2022_05_05/D.o: codeforces/2022_05_05/D.cpp.o
 
-.PHONY : baekjoon/2022-may/2022_05_04/16967.o
+.PHONY : codeforces/2022_05_05/D.o
 
 # target to build an object file
-baekjoon/2022-may/2022_05_04/16967.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-may/2022_05_04/16967.cpp.o
-.PHONY : baekjoon/2022-may/2022_05_04/16967.cpp.o
+codeforces/2022_05_05/D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/codeforces/2022_05_05/D.cpp.o
+.PHONY : codeforces/2022_05_05/D.cpp.o
 
-baekjoon/2022-may/2022_05_04/16967.i: baekjoon/2022-may/2022_05_04/16967.cpp.i
+codeforces/2022_05_05/D.i: codeforces/2022_05_05/D.cpp.i
 
-.PHONY : baekjoon/2022-may/2022_05_04/16967.i
+.PHONY : codeforces/2022_05_05/D.i
 
 # target to preprocess a source file
-baekjoon/2022-may/2022_05_04/16967.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-may/2022_05_04/16967.cpp.i
-.PHONY : baekjoon/2022-may/2022_05_04/16967.cpp.i
+codeforces/2022_05_05/D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/codeforces/2022_05_05/D.cpp.i
+.PHONY : codeforces/2022_05_05/D.cpp.i
 
-baekjoon/2022-may/2022_05_04/16967.s: baekjoon/2022-may/2022_05_04/16967.cpp.s
+codeforces/2022_05_05/D.s: codeforces/2022_05_05/D.cpp.s
 
-.PHONY : baekjoon/2022-may/2022_05_04/16967.s
+.PHONY : codeforces/2022_05_05/D.s
 
 # target to generate assembly for a file
-baekjoon/2022-may/2022_05_04/16967.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-may/2022_05_04/16967.cpp.s
-.PHONY : baekjoon/2022-may/2022_05_04/16967.cpp.s
+codeforces/2022_05_05/D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/codeforces/2022_05_05/D.cpp.s
+.PHONY : codeforces/2022_05_05/D.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Problem_Solving"
-	@echo "... baekjoon/2022-may/2022_05_04/16967.o"
-	@echo "... baekjoon/2022-may/2022_05_04/16967.i"
-	@echo "... baekjoon/2022-may/2022_05_04/16967.s"
+	@echo "... codeforces/2022_05_05/D.o"
+	@echo "... codeforces/2022_05_05/D.i"
+	@echo "... codeforces/2022_05_05/D.s"
 .PHONY : help
 
 
