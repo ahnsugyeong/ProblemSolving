@@ -3,4 +3,4 @@ project(Problem_Solving)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Problem_Solving "baekjoon/2022-may/2022_05_24/10844.cpp")
+add_executable(Problem_Solving "baekjoon/2022-may/2022_05_27/14225.cpp")
