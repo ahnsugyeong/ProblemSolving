@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving
+# Install script for directory: /Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

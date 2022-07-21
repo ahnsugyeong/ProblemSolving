@@ -1,3 +1,3 @@
-/Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug/CMakeFiles/Problem_Solving.dir
+/Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug/CMakeFiles/Problem_Solving.dir

@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving
+CMAKE_SOURCE_DIR = /Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug/CMakeFiles /Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug/CMakeFiles /Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahnsugyeong/Desktop/2022/2022-1/Problem_Solving/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ahnsugyeong/Desktop/2022/2022-summer/Problem_Solving/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ Problem_Solving/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/build
 .PHONY : Problem_Solving/fast
 
-baekjoon/2022-july/2022_07_03/9019.o: baekjoon/2022-july/2022_07_03/9019.cpp.o
+baekjoon/2022-july/2022_07_13/1759.o: baekjoon/2022-july/2022_07_13/1759.cpp.o
 
-.PHONY : baekjoon/2022-july/2022_07_03/9019.o
+.PHONY : baekjoon/2022-july/2022_07_13/1759.o
 
 # target to build an object file
-baekjoon/2022-july/2022_07_03/9019.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-july/2022_07_03/9019.cpp.o
-.PHONY : baekjoon/2022-july/2022_07_03/9019.cpp.o
+baekjoon/2022-july/2022_07_13/1759.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-july/2022_07_13/1759.cpp.o
+.PHONY : baekjoon/2022-july/2022_07_13/1759.cpp.o
 
-baekjoon/2022-july/2022_07_03/9019.i: baekjoon/2022-july/2022_07_03/9019.cpp.i
+baekjoon/2022-july/2022_07_13/1759.i: baekjoon/2022-july/2022_07_13/1759.cpp.i
 
-.PHONY : baekjoon/2022-july/2022_07_03/9019.i
+.PHONY : baekjoon/2022-july/2022_07_13/1759.i
 
 # target to preprocess a source file
-baekjoon/2022-july/2022_07_03/9019.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-july/2022_07_03/9019.cpp.i
-.PHONY : baekjoon/2022-july/2022_07_03/9019.cpp.i
+baekjoon/2022-july/2022_07_13/1759.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-july/2022_07_13/1759.cpp.i
+.PHONY : baekjoon/2022-july/2022_07_13/1759.cpp.i
 
-baekjoon/2022-july/2022_07_03/9019.s: baekjoon/2022-july/2022_07_03/9019.cpp.s
+baekjoon/2022-july/2022_07_13/1759.s: baekjoon/2022-july/2022_07_13/1759.cpp.s
 
-.PHONY : baekjoon/2022-july/2022_07_03/9019.s
+.PHONY : baekjoon/2022-july/2022_07_13/1759.s
 
 # target to generate assembly for a file
-baekjoon/2022-july/2022_07_03/9019.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-july/2022_07_03/9019.cpp.s
-.PHONY : baekjoon/2022-july/2022_07_03/9019.cpp.s
+baekjoon/2022-july/2022_07_13/1759.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/baekjoon/2022-july/2022_07_13/1759.cpp.s
+.PHONY : baekjoon/2022-july/2022_07_13/1759.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Problem_Solving"
-	@echo "... baekjoon/2022-july/2022_07_03/9019.o"
-	@echo "... baekjoon/2022-july/2022_07_03/9019.i"
-	@echo "... baekjoon/2022-july/2022_07_03/9019.s"
+	@echo "... baekjoon/2022-july/2022_07_13/1759.o"
+	@echo "... baekjoon/2022-july/2022_07_13/1759.i"
+	@echo "... baekjoon/2022-july/2022_07_13/1759.s"
 .PHONY : help
 
 
